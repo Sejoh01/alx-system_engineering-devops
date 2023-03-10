@@ -1,14 +1,2 @@
 #!/bin/bash
-
-# list files in current directory
-echo "Files in current directory:"
-ls -la
-
-# list files in parent directory
-echo "Files in parent directory:"
-ls -la ../
-
-# list files in /boot directory
-echo "Files in /boot directory:"
 ls -la /boot/
-

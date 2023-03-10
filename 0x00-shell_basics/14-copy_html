@@ -1,16 +1,2 @@
 #!/bin/bash
-
-# move up to the parent directory
 cd ..
-
-# loop over all HTML files in the current working directory
-for file in $(find "$(pwd -P)" -maxdepth 1 -type f -name "*.html"); do
-    # check if the file already exists in the parent directory and is not newer
-    if [[ -f "$file" && "$file" -ot "./$(basename $file)" ]]; then
-        echo "Skipping $file"
-    else
-        # copy the file to the parent directory
-        cp -v "$file" .
-    fi
-done
-
