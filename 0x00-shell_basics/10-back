@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# get the current working directory
+current_dir=$(pwd)
+
+# change to the previous directory (stored in $OLDPWD)
+cd "$OLDPWD"
+
+# display the new working directory
+echo "$OLDPWD"
+
+# set the current directory back to its original value
+cd "$current_dir"
+
