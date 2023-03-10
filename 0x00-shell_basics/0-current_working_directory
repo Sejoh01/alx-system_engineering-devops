@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Please enter an absolute pathway"
+C-pwd
