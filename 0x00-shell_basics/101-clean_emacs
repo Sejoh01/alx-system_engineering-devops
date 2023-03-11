@@ -1,0 +1,2 @@
+#!/bin/bash
+for file in do if -e file then rm file
