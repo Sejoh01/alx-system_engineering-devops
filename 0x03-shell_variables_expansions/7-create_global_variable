@@ -1,0 +1,2 @@
+#!/bin/bash
+BEST="School"; export BEST; echo "BEST is now set to: $BEST"
